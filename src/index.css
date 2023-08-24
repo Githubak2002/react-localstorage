@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* --------- scrollbar ---------  */
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #88888898;
+    border-radius: 16px
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555555cd;
+}
+
+/* --------- scrollbar ---------  */
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 0.04cm;
+}
+
+body{
+    font-family: 'Acme', sans-serif;
+}
+
+/* --- LOGO CSS --- */
+
+.logo{
+    background: linear-gradient(78deg,rgba(57, 57, 236, 0.801),rgba(235, 26, 235, 0.887),
+    rgba(0, 155, 251, 0.802));
+    background-clip:content-box;
+    text-transform: uppercase;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+
+    font-size: 60px;
+    font-weight: 900;
+    cursor: pointer;
+    /* border-right: 3px solid orange; */
+}
+/* --- flex center --- */
+.flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todogradient{
+    background: linear-gradient(40deg, rgba(99, 148, 255, 0.802),rgba(255, 0, 255, 0.601));
+}
+
+.contactgradient{
+    background: linear-gradient(40deg,#3c00ff93, #12dbffaf )
+}
+
+.notesgradient{
+    background: linear-gradient(40deg,rgba(255, 100, 10, 0.582),rgba(251, 228, 58, 0.823));
+}
+.lpgheight{
+    height: calc("100vh-168px");
+}
