@@ -9,7 +9,7 @@
 //       <a href="https://githubak2002.github.io/akportfolio" target='blank' className='font-black text-2xl sm:text-6xl'>AK</a>
 //       <div className='text-lg sm:text-3xl hidden sm:flex gap-8'>
 //         <NavLink to="/notes">Notes</NavLink>
-//         <NavLink to="/multi">Contacts</NavLink>
+//         <NavLink to="/contact">Contacts</NavLink>
 //         <NavLink to="/todo">TO-Do</NavLink>
 //       </div>
 //     </nav>
