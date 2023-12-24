@@ -94,7 +94,7 @@ const Nav = () => {
 
         <NavLink to='/' className='navlinkcss' onClick={() => setToggle(prev => !prev)}>HOME</NavLink>
         <NavLink to='/notes' className='navlinkcss' onClick={() => setToggle(prev => !prev)}>NOTES</NavLink>
-        <NavLink to='/multi ' className='navlinkcss'onClick={() => setToggle(prev => !prev)}>CONTACTS</NavLink>
+        <NavLink to='/contact ' className='navlinkcss'onClick={() => setToggle(prev => !prev)}>CONTACTS</NavLink>
         <NavLink to='/todo' className='navlinkcss'onClick={() => setToggle(prev => !prev)}>TO-DO</NavLink>
 
         </div>
